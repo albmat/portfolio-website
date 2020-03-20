@@ -1,4 +1,10 @@
 h1 {
     font-size: 72pt;
-    
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+a {
+    text-align: center;
 }
