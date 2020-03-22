@@ -1,3 +1,6 @@
+html {
+    font-size: 20px;
+}
 body {
     /* Old browsers */
     background: #141E30;
@@ -16,7 +19,7 @@ body {
     color: #FFF;
     padding: 80px 50px 50px 50px;
     max-width: 100%;
-    font-size: 5em;
+    font-size: 4em;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
