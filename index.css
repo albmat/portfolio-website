@@ -96,11 +96,35 @@ a, .header span {
 div {
     text-align: center;
 }
+.container{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+}
+.column1{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    left: 10px;
+    width: 100%;
+}
+.column2{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    right: 10px;
+    width: 100%;
+}
 .contact {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 50%;
+    width: 90%;
     height: 50%;
     margin: 20px 20px 20px 50px;
     padding: 5px;
@@ -112,12 +136,14 @@ div {
     color: white;
     border-style: outset;
     border-color: #0066A2;
-    height: 50px;
-    width: 100px;
+    width: 50%;
+    height: 50%;
+    margin: 20px 20px 20px 50px;
+    padding: 5px;
     text-shadow: none;
-    font: bold 15px 'Montserrat', sans-serif;
+    font: bold 20px 'Montserrat', sans-serif;
 }
-label {
+.formulario {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;

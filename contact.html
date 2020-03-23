@@ -11,30 +11,31 @@
 
 <body>
     <h1 class="header">Contact <span>me</span></h1>
-    <form action="/sign-in-url" method="post">
-        <label for="first name">First Name</label> <br>
-        <input id="first name" type="text" class="contact" required> <br>
-        <label for="last name">Last Name</label> <br>
-        <input id="last name" type="text" class="contact" required> <br>
-        <label for="company name">Company Name</label> <br>
-        <input id="company name" type="text" class="contact"> <br>
-        <label for="company email">Company Email</label> <br>
-        <input id="company email" type="email" class="contact" required> <br>
-        <label for="phone number">Phone Number</label> <br>
-        <input id="phone number" type="tel" class="contact" pattern="/(07)\d{9}$/" required> <br>
-        <label for="country">Country</label> <br>
-        <input id="country" type="text" class="contact" required> <br>
-        <label for="comments">Comments</label> <br>
-        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-        <div>
-            <label for="contact" class="send">
-                <button id="contact" type="submit">Send</label>
+    <div class="container">
+        <div class="column1">
+            <form action="/sign-in-url" method="post">
+                <label for="first name" class="formulario">First Name</label> <br>
+                <input id="first name" type="text" class="contact" required> <br>
+                <label for="last name" class="formulario">Last Name</label> <br>
+                <input id="last name" type="text" class="contact" required> <br>
+                <label for="company name" class="formulario">Company Name</label> <br>
+                <input id="company name" type="text" class="contact"> <br>
+                <label for="company email" class="formulario">Company Email</label> <br>
+                <input id="company email" type="email" class="contact" required> <br>
+                <label for="phone number" class="formulario">Phone Number</label> <br>
+                <input id="phone number" type="tel" class="contact" pattern="/(07)\d{9}$/" required> <br>
+                <label for="country" class="formulario">Country</label> <br>
+                <input id="country" type="text" class="contact" required> <br>
+                <label for="comments" class="formulario">Comments</label> <br>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                <label for="contact">
+                    <button id="contact" type="submit" class="send">Send Message</label>
+            </form>
         </div>
-    </form>
-    <div>
-        <img href="/images/instagram-logo-png-2428.png" alt="logo">
+        <div class="column2">
+            <img href="/images/instagram-logo-png-2428.png" alt="logo">
+        </div>
     </div>
-
     <div>
         <a class="buttom" href="index.html">Home</a>
     </div>
