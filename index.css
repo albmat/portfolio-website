@@ -1,6 +1,4 @@
-html {
-    font-size: 20px;
-}
+
 body {
     /* Old browsers */
     background: #141E30;
@@ -9,7 +7,6 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(-45deg, #35577D, #141E30);
     background-attachment: fixed;
-    background-size: 100%;
     margin: 0;
     padding: 0;
 }
@@ -20,7 +17,7 @@ body {
     color: #FFF;
     padding: 80px 50px 50px 50px;
     max-width: 100%;
-    font-size: 4em;
+    font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
@@ -41,7 +38,7 @@ body {
     margin: 50px auto;
     font-size: 18pt;
     font-family: 'Montserrat', sans-serif;
-    color: #141E50;
+    color: #FFF;
 }
 a, .header span {
     color: #B22222;
@@ -162,4 +159,14 @@ textarea {
     padding: 5px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    max-width: 60px;
+}
+.fondo {
+    position: fixed;
+    left: 0px;
+    bottom: -10px;
+    max-width: 360px;
+    opacity: 30%;
 }
