@@ -18,6 +18,13 @@
     bottom: 0px;
     max-width: 100px;
     }
+    .container{
+        flex-direction: column;
+    }
+    .media{
+        display: flex;
+        flex-direction: row;
+    }
 }
 body {
     /* Old browsers */
@@ -31,7 +38,7 @@ body {
 }
 .header {
     color: #FFF;
-    padding: 80px 50px 50px 50px;
+    padding: 10% 10% 10% 10%;
     max-width: 100%;
     font-size: 4em;
     text-align: center;
@@ -54,7 +61,6 @@ a, .header span {
 }
 .buttom {
     color: #FFF;
-    font-size: 20px;
     text-decoration: none;
     text-align: center;
     max-width: 200px;
@@ -62,8 +68,8 @@ a, .header span {
     display: block;
     border: 5px solid #FFF;
     border-radius: 15px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 2% auto;
+    padding: 2%;
     overflow-wrap: break-word;
 }
 .text {
@@ -73,7 +79,6 @@ a, .header span {
 }
 .project {
     color: rgb(114, 24, 24);
-    font-size: 40px;
     text-decoration: none;
     text-align: center;
     max-width: 400px;
@@ -81,34 +86,42 @@ a, .header span {
     display: inline-block;
     border: 5px solid rgb(114, 24, 24);
     border-radius: 15px;
-    margin: 20px 50px 50px 50px;
-    padding: 20px;
+    margin: 5%;
+    padding: 30px;
     overflow-wrap: break-word;
 }
 div {
     text-align: center;
 }
+nav {
+    justify-content: center;
+}
 .container{
     display: flex;
 }
 .column1{
-    display: block;
     text-align: left;
-    left: 10px;
     width: 100%;
 }
 .column2{
-    display: block;
-    text-align: left;
-    right: 10px;
+    text-align: center;
     width: 100%;
+    margin: 5%;
+}
+.media {
+    display: flex;
+    flex-direction: column;
 }
 .contact {
     width: 90%;
     height: 50%;
-    margin: 20px 20px 20px 50px;
-    padding: 5px;
+    margin: 1% 10% 2% 10%;
+    padding: 1%;
+}
+.formulario {
+    color: #FFF;
     font-size: 20px;
+    margin: 10%;
 }
 .send {
     background: #0066A2;
@@ -117,25 +130,21 @@ div {
     border-color: #0066A2;
     width: 90%;
     height: 50%;
-    margin: 20px 20px 20px 50px;
-    padding: 5px;
+    margin: 1% 10% 2% 10%;
+    padding: 1%;
     text-shadow: none;
     font-size: 20px;
-}
-.formulario {
-    color: #FFF;
-    font-size: 20px;
-    margin: 10%;
 }
 textarea {
     width: 90%;
     height: 50%;
-    margin: 20px 20px 20px 50px;
-    padding: 5px;
+    margin: 1% 10% 2% 10%;
+    padding: 1%;
     font-size: 20px;
 }
 .logo{
-    max-width: 60px;
+    max-width: 10%;
+    margin: 5%;
 }
 .fondo {
     position: fixed;
