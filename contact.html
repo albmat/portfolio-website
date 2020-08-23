@@ -12,18 +12,43 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="header">Contact <span>me</span></h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">AM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html" tabindex="-1">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container justify-content-center mt-4">
+        <h1 class="header text-center">Contact <span>me</span></h1>
         <form action="mailto:albmatcar@gmail.com" method="post" enctype=”multipart/form-data” name=”EmailTestForm”>
-            <div class="form-group">
+            <div class="form-group m-0">
                 <label for="name" class="formulario">Name</label> <br>
                 <input id="name" class="form-control" type="text" class="contact" required> <br>
             </div>
-            <div class="form-group">
+            <div class="form-group m-0">
                 <label for="email" class="formulario">Email</label> <br>
                 <input id="email" class="form-control" type="email" class="contact" required> <br>
             </div>
-            <div class="form-group">
+            <div class="form-group m-0">
                 <label for="phone number" class="formulario">Phone Number</label> <br>
                 <input id="phone number" class="form-control" type="tel" class="contact" pattern="(07)\d{9}$" required>
                 <br>
@@ -38,28 +63,20 @@
                 </label>
             </div>
         </form>
-        <div class="row d-flex justify-content-center">
-            <div class="col-2">
-                <a href="https://www.instagram.com/albmatcar/" target="_blanke"
-                    class="d-flex justify-content-center"><img
-                        src="images/kisspng-instagram-computer-icons-logo-clip-art-well-5b50e0c919d6d5.9779015115320270811059.png"
-                        class="logo img-fluid"></a>
-            </div>
-            <div class="col-2">
-                <a href="https://www.linkedin.com/in/albamateoscarbajo/" target="_blanke"
-                    class="d-flex justify-content-center"><img src="images/Linkedin-Download-PNG.png"
-                        class="logo img-fluid"></a>
-            </div>
-        </div>
-        <div>
-            <a class="buttom" href="index.html">Home</a>
-            <a class="buttom" href="projects.html">View my work</a>
-            <a class="buttom" href="about.html">About me</a>
-        </div>
         <div class="fondo">
             <img src="images/PinClipart.com_clip-art-hair-salon_501111.png">
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

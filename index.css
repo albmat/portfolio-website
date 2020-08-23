@@ -14,20 +14,13 @@ body {
     background-size: 100%;
 }
 .container {
-    height: 100%;
+    height: 90%;
 }
 
 .header {
     color: #FFF;
-    margin: 2%;
-    padding: 2%;
-    max-width: 100%;
-    font-size: 4em;
-    text-align: center;
 }
 .tittle {
-    font-size: 2em;
-    text-align: center;
     color: #808080;
     margin: 5%;
     margin-bottom: 2%;
@@ -44,12 +37,10 @@ body {
     text-align: center;
     max-width: 200px;
     max-height: 100px;
-    display: block;
     border: 5px solid #FFF;
-    border-radius: 15px;
     margin: 2% auto;
-    padding: 1%;
     overflow-wrap: break-word;
+    flex-wrap: nowrap;
 }
 
 .formulario {
@@ -69,6 +60,6 @@ body {
     opacity: 30%;
 }
 
-.nav-pills, .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: rgb(114, 24, 24) !important;
+.navbar {
+    background-color: #141E30;
 }

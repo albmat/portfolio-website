@@ -12,34 +12,61 @@
 </head>
 
 <body>
-    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">AM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" tabindex="-1">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center d-flex justify-content-center align-items-center flex-column">
         <h1 class="header">My Projects</h1>
-        <ul class="nav nav-pills nav-justified">
-            <li class="nav-item">
-                <a class="project nav-link active" href="https://github.com/albmat">Project 1</a>
+        <ul class="nav nav-pills flex-column flex-sm-row">
+            <li class="nav-item m-3">
+                <a class="buttom nav-link" href="https://github.com/albmat">Project 1</a>
             </li>
-            <li class="nav-item">
-                <a class="project nav-link active" href="https://github.com/albmat">Project 2</a>
+            <li class="nav-item m-3">
+                <a class="buttom nav-link" href="https://github.com/albmat">Project 2</a>
             </li>
-            <li class="nav-item">
-                <a class="project nav-link active" href="https://github.com/albmat">Project 3</a>
+            <li class="nav-item m-3">
+                <a class="buttom nav-link" href="https://github.com/albmat">Project 3</a>
             </li>
-            <li class="nav-item">
-                <a class="project nav-link active" href="https://github.com/albmat" tabindex="-1"
-                    aria-disabled="true">Project
-                    4</a>
+            <li class="nav-item m-3">
+                <a class="buttom nav-link" href="https://github.com/albmat">Project 4</a>
             </li>
         </ul>
-        <div>
-            <a class="buttom" href="https://github.com/albmat" target="_blank">View my GitHub</a>
-            <a class="buttom" href="index.html">Home</a>
-            <a class="buttom" href="about.html">About me</a>
-            <a class="buttom" href="contact.html">Contact me</a>
-        </div>
         <div class="fondo">
             <img src="images/PinClipart.com_clip-art-hair-salon_501111.png">
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
