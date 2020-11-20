@@ -12,40 +12,125 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">AM</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html" tabindex="-1">Contact</a>
-                    </li>
-                </ul>
+    <div class="d-flex flex-column">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-light fixed-top" id="navbar-scroll">
+                <div class="container">
+                    <a class="navbar-brand" href="#home">AM</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <div data-spy="scroll" data-target="#navbar-scroll" data-offset="0">
+                    <!--HOME-->
+                        <div class="container section text-center d-flex justify-content-center align-items-center flex-column" id="home">
+                            <h1 class="header display-4">Hello, I am <a href="about.html" alt="About me" class="highlight">Alba Mateos</a>.<br>I am
+                            full-stack
+                            web developer.</h1>
+                            <p class="text-center text-white">Welcome to my website! Please enjoy your stay.</p>
+                        </div>
+
+                    <!--ABOUT-->
+                        <div class="container section text-center d-flex justify-content-center align-items-center flex-column" id="about">
+                            <h1 class="header">About <span class="highlight">me</span></h1>
+                            <p class="text-white">I am from Spain and currently living in Leeds. I enjoy programming, writing,
+                            traveling, reading and painting.</p>
+                            <h2 class="tittle">Past Experience</h2>
+                            <ul class="text-white">
+                                <li class="text-center">Architecture Student. September 2006 - July 2018</li> <br>
+                                <li class="text-center">Internship CAD Technician. 2 weeks in July 2019</li> <br>
+                                <li class="text-center">The Web Developer Bootcamp (Udemy). 47 hours in 2020</li> <br>
+                                <li class="text-center">Northcoders Student. September 2020 - today</li> <br>
+                            </ul>
+                        </div>
+                   
+                    <!--PROJECTS-->
+                        <div class="container section text-center d-flex justify-content-center align-items-center flex-column" id="projects">
+                            <h1 class="header"><span class="highlight">My</span> Projects</h1>
+                            <ul class="nav nav-pills flex-column flex-sm-row">
+                                <li class="nav-item m-3">
+                                    <a class="buttom nav-link" href="https://github.com/albmat">Project 1</a>
+                                </li>
+                                <li class="nav-item m-3">
+                                    <a class="buttom nav-link" href="https://github.com/albmat">Project 2</a>
+                                </li>
+                                <li class="nav-item m-3">
+                                    <a class="buttom nav-link" href="https://github.com/albmat">Project 3</a>
+                                </li>
+                                <li class="nav-item m-3">
+                                    <a class="buttom nav-link" href="https://github.com/albmat">Project 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                    <!--CONTACT-->
+                        <div class="container section col-12 col-lg-8" id="contact">
+                            <h1 class="header text-center">Contact <span class="highlight">me</span></h1></h1>
+                            <form action="mailto:albmatcar@gmail.com" method="post" enctype=”multipart/form-data” name=”EmailTestForm”>
+                                <div class="form-group">
+                                    <input id="name" class="form-control" type="text" class="contact" required placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input id="email" class="form-control" type="email" class="contact" required placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="comments" class="form-control" id="comments" cols="30" rows="10" placeholder="Your message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact">
+                                    <button id="contact" type="submit" class="btn btn-primary">Send
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+        </main>
+
+        <footer class="footer">
+            <div class="icon-wrap flex row">
+                <div class="flex icon">
+                    <a href="#">
+                        <img border="0" src="/images/kisspng-instagram-computer-icons-logo-clip-art-well-5b50e0c919d6d5.9779015115320270811059.png" width="35" height="35">
+                    </a>
+                </div>
+                <div class="flex icon">
+                    <a href="#">
+                        <img border="0" src="images/Linkedin-Download-PNG.png" width="35" height="35">
+                    </a>
+                </div>
+                <div class="flex icon">
+                    <a href="#">
+                        <img border="0" src="images/email.png" width="35" height="35">
+                    </a>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class="container text-center d-flex justify-content-center align-items-center flex-column">
-        <h1 class="header display-4">Hello, I am <a href="about.html" alt="About me">Alba Mateos</a>.<br>I am
-            full-stack
-            web developer.</h1>
-        <p class="text-center text-white">Welcome to my website! Please enjoy your stay.</p>
-        <div class="fondo">
-            <img src="images/PinClipart.com_clip-art-hair-salon_501111.png">
-        </div>
+            <div class="info-box">
+                <div class="footnote">
+                    ALBA MATEOS <span class="highlight">©2020</span>
+                </div>
+            </div>
+        </footer>
     </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
