@@ -151,7 +151,7 @@ carousel-control-next {
 }
 
 .projects {
-  width: 400px;
+  width: 300px;
 }
 
 .fixed-section {
@@ -183,13 +183,4 @@ carousel-control-next {
     left: 50%;
     margin-left: -320px;
   }
-  /* 
-  .container-icon {
-    font-size: 70px;
-    position: absolute;
-    bottom: 5%;
-    background: #141e30;
-    width: 200px;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  } */
 }
