@@ -45,10 +45,6 @@ p {
   flex-grow: 1;
 }
 
-.carousel {
-  height: 100%;
-}
-
 .carousel-control-prev,
 carousel-control-next {
   height: 100%;
@@ -121,6 +117,35 @@ carousel-control-next {
   margin: 15px;
   border-radius: 15%;
   background-color: #39506b;
+}
+
+.icon-project {
+  padding: 5px;
+  margin: 0;
+  border-radius: 15%;
+  background-color: #39506b;
+  height: 45px;
+}
+
+.container-icon-project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.icon-image {
+  filter: invert(100%);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
 }
 
 .footnote {
