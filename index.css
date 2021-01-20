@@ -187,9 +187,12 @@ a:active {
   margin-left: -500px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: invert(100%);
+.carousel-control-prev {
+  margin-left: -100px;
+}
+
+.carousel-control-next {
+  margin-right: -100px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -207,5 +210,18 @@ a:active {
     top: 0;
     left: 50%;
     margin-left: -320px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+
+  .carousel-control-prev {
+    margin-left: 0;
+  }
+
+  .carousel-control-next {
+    margin-right: 0;
   }
 }
