@@ -120,8 +120,9 @@ carousel-control-next {
 }
 
 .icon-project {
+  vertical-align: middle;
   padding: 5px;
-  margin: 0;
+  margin: auto;
   border-radius: 15%;
   background-color: #39506b;
   height: 45px;
@@ -201,7 +202,7 @@ a:active {
   }
   .photos {
     margin: auto;
-    width: 640px;
+    width: 850px;
     height: 100%;
   }
   .fixed-section {
